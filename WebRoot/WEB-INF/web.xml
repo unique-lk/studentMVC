@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>lk.login.servlet.LoginServlet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>SelectScoresByCrServlet</servlet-name>
+		<servlet-class>lk.login.servlet.SelectScoresByCrServlet</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ShowAllScroesServlet</servlet-name>
+		<servlet-class>lk.login.servlet.ShowAllScroesServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddScroesServlet</servlet-name>
+		<servlet-class>lk.login.servlet.AddScroesServlet</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DeleteScroesServlet</servlet-name>
+		<servlet-class>lk.login.servlet.DeleteScroesServlet</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>SelectScoresByIDServlet</servlet-name>
+		<servlet-class>lk.login.servlet.SelectScoresByIDServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DeleteScoresByIDServlet</servlet-name>
+		<servlet-class>lk.login.servlet.DeleteScoresByIDServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ModifyScoresServlet</servlet-name>
+		<servlet-class>lk.login.servlet.ModifyScoresServlet</servlet-class>
+	</servlet>
+
+
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>SelectScoresByNameServlet</servlet-name>
+		<servlet-class>lk.login.servlet.SelectScoresByNameServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>InvalidateServlet</servlet-name>
+		<servlet-class>lk.login.servlet.InvalidateServlet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowAllScroesServlet</servlet-name>
+		<url-pattern>/ShowAllScroesServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddScroesServlet</servlet-name>
+		<url-pattern>/AddScroesServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DeleteScroesServlet</servlet-name>
+		<url-pattern>/DeleteScroesServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>DeleteScoresByIDServlet</servlet-name>
+		<url-pattern>/DeleteScoresByIDServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>SelectScoresByCrServlet</servlet-name>
+		<url-pattern>/SelectScoresByCrServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>SelectScoresByIDServlet</servlet-name>
+		<url-pattern>/SelectScoresByIDServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModifyScoresServlet</servlet-name>
+		<url-pattern>/ModifyScoresServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>SelectScoresByNameServlet</servlet-name>
+		<url-pattern>/SelectScoresByNameServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InvalidateServlet</servlet-name>
+		<url-pattern>/InvalidateServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>invalidateServlet</servlet-name>
+		<servlet-class>lk.login.servlet.InvalidateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>invalidateServlet</servlet-name>
+		<url-pattern>/InvalidateServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>orderServlet</servlet-name>
+		<servlet-class>lk.login.servlet.ScoresOrderServlet</servlet-class>
+	</servlet>
+	
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderBySum</servlet-name>
+    <servlet-class>lk.login.servlet.OrderBySum</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectAdminServlet</servlet-name>
+    <servlet-class>lk.login.servlet.selectAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyAdminServlet</servlet-name>
+    <servlet-class>lk.login.servlet.ModifyAdminServlet</servlet-class>
+  </servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>orderServlet</servlet-name>
+		<url-pattern>/orderServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+  <servlet-mapping>
+    <servlet-name>OrderBySum</servlet-name>
+    <url-pattern>/OrderBySum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectAdminServlet</servlet-name>
+    <url-pattern>/selectAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyAdminServlet</servlet-name>
+    <url-pattern>/ModifyAdminServlet</url-pattern>
+  </servlet-mapping>
+
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
